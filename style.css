@@ -1,0 +1,31 @@
+:root {
+    --primary-dark: black;
+    --primary-light: white;
+    --primary-hover: green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 80vh;
+    width: 80vw;  
+    margin: 20px auto;
+    border: 1px solid var(--primary-dark);
+}
+
+.calculate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin-top: 20px;
+}
